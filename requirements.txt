@@ -1,2 +1,2 @@
-litellm
-uvicorn # Render thường dùng uvicorn để chạy app Python
+litellm[proxy]
+uvicorn
