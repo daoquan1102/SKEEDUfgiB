@@ -607,9 +607,9 @@ model_list:
 
 # --- Cấu hình chung của LiteLLM ---
 litellm_settings:
-  litellm.drop_params = True
-  litellm.set_verbose = True
-# master_key: sk-1234 # (Tùy chọn) Nếu bạn muốn bảo vệ proxy bằng master key, hãy bỏ comment và đặt key
+  set_verbose: true
+  drop_params: true
+  # master_key: sk-1234 # (Tùy chọn) Nếu bạn muốn bảo vệ proxy bằng master key, hãy bỏ comment và đặt key
 
 # litigation: # (Tùy chọn) Cấu hình logging, database,... nếu cần
 #   # Ví dụ:
