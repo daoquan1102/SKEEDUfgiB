@@ -6,7 +6,7 @@ model_list:
   # Đặt cùng model_name để LiteLLM biết chúng thuộc cùng một nhóm
 
   # --- Keys 1-48 cho gemini-2.5-pro-exp-03-25-router ---
-  - model_name: gemini-2.5-pro-exp-03-25-router # Tên định tuyến bạn sẽ gọi trong API
+  - model_name: gemini-2.5-pro-exp-03-25-router # Tên định tuyến bạn sẽ gọi trong APIG
     litellm_params:
       model: gemini/gemini-2.5-pro-exp-03-25 # Model thực tế của Gemini
       api_key: os.environ/GEMINI_API_KEY_1
@@ -396,52 +396,6 @@ model_list:
     litellm_params:
       model: gemini/gemini-2.5-pro-preview-03-25
       api_key: os.environ/GEMINI_API_KEY_48
-
-
-# config.yaml cho LiteLLM
-
-model_list:
-  # --- Định nghĩa nhóm key cho gemini-2.5-pro-exp-03-25 ---
-  # LiteLLM sẽ tự động luân phiên (round-robin) giữa các key này
-  # Đặt cùng model_name để LiteLLM biết chúng thuộc cùng một nhóm
-
-  # --- Keys 1-48 cho gemini-2.5-pro-exp-03-25-router ---
-  - model_name: gemini-2.5-pro-exp-03-25-router # Tên định tuyến bạn sẽ gọi trong API
-    litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25 # Model thực tế của Gemini
-      api_key: os.environ/GEMINI_API_KEY_1
-  - model_name: gemini-2.5-pro-exp-03-25-router
-    litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
-      api_key: os.environ/GEMINI_API_KEY_2
-  # ... (Các keys từ 3 đến 47 cho gemini-2.5-pro-exp-03-25-router) ...
-  - model_name: gemini-2.5-pro-exp-03-25-router
-    litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
-      api_key: os.environ/GEMINI_API_KEY_48
-
-  # --- Định nghĩa nhóm key cho gemini-2.5-pro-preview-03-25 ---
-  # LiteLLM sẽ tự động luân phiên (round-robin) giữa các key này
-  # Đặt cùng model_name để LiteLLM biết chúng thuộc cùng một nhóm
-
-  # --- Keys 1-48 cho gemini-2.5-pro-preview-03-25-router ---
-  - model_name: gemini-2.5-pro-preview-03-25-router # Tên định tuyến bạn sẽ gọi trong API
-    litellm_params:
-      model: gemini/gemini-2.5-pro-preview-03-25 # Model thực tế của Gemini (Preview)
-      api_key: os.environ/GEMINI_API_KEY_1 # Sử dụng lại các biến môi trường
-  - model_name: gemini-2.5-pro-preview-03-25-router
-    litellm_params:
-      model: gemini/gemini-2.5-pro-preview-03-25
-      api_key: os.environ/GEMINI_API_KEY_2
-  # ... (Các keys từ 3 đến 47 cho gemini-2.5-pro-preview-03-25-router) ...
-  - model_name: gemini-2.5-pro-preview-03-25-router
-    litellm_params:
-      model: gemini/gemini-2.5-pro-preview-03-25
-      api_key: os.environ/GEMINI_API_KEY_48
-
-  # --- Định nghĩa nhóm key cho gemini-1.5-pro-latest ---
-  # LiteLLM sẽ tự động luân phiên (round-robin) giữa các key này
-  # Đặt cùng model_name để LiteLLM biết chúng thuộc cùng một nhóm
 
   # --- Keys 1-48 cho gemini-1.5-pro-lastest-router ---
   - model_name: gemini-1.5-pro-lastest # Tên định tuyến bạn yêu cầu (lưu ý lỗi chính tả 'lastest')
