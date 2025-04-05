@@ -210,8 +210,8 @@ model_list:
 
 # --- Cấu hình chung của LiteLLM ---
 litellm_settings:
-  set_verbose: true   # Bật log chi tiết để dễ debug trên Render
-  drop_params: true    # (Tùy chọn) Loại bỏ các tham số không được hỗ trợ bởi model đích
+  set_verbose: true
+  drop_params: true
   # master_key: sk-1234 # (Tùy chọn) Nếu bạn muốn bảo vệ proxy bằng master key, hãy bỏ comment và đặt key
 
 # litigation: # (Tùy chọn) Cấu hình logging, database,... nếu cần
