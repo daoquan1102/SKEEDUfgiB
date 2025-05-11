@@ -1,2 +1,2 @@
-litellm[proxy]==1.65.5
+litellm[proxy]==1.67.4
 uvicorn
