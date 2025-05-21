@@ -413,7 +413,29 @@ model_list:
     litellm_params:
       model: gemini/gemini-2.5-flash-preview-04-17 # Model thực tế của Gemini
       api_key: os.environ/GEMINI_API_KEY_2 # Sử dụng key đầu tiên
-      
+
+
+  - model_name: gemini-2.5-flash-preview-05-20 # Tên định tuyến bạn sẽ gọi trong API
+    litellm_params:
+      model: gemini/gemini-2.5-flash-preview-05-20 # Model thực tế của Gemini
+      api_key: os.environ/GEMINI_API_KEY_1 # Sử dụng key đầu tiên
+  - model_name: gemini-2.5-flash-preview-05-20 # Tên định tuyến bạn sẽ gọi trong API
+    litellm_params:
+      model: gemini/gemini-2.5-flash-preview-05-20 # Model thực tế của Gemini
+      api_key: os.environ/GEMINI_API_KEY_2 # Sử dụng key đầu tiên
+  - model_name: gemini-2.5-flash-preview-05-20 # Tên định tuyến bạn sẽ gọi trong API
+    litellm_params:
+      model: gemini/gemini-2.5-flash-preview-05-20 # Model thực tế của Gemini
+      api_key: os.environ/GEMINI_API_KEY_3 # Sử dụng key đầu tiên
+  - model_name: gemini-2.5-flash-preview-05-20 # Tên định tuyến bạn sẽ gọi trong API
+    litellm_params:
+      model: gemini/gemini-2.5-flash-preview-05-20 # Model thực tế của Gemini
+      api_key: os.environ/GEMINI_API_KEY_4 # Sử dụng key đầu tiên
+  - model_name: gemini-2.5-flash-preview-05-20 # Tên định tuyến bạn sẽ gọi trong API
+    litellm_params:
+      model: gemini/gemini-2.5-flash-preview-05-20 # Model thực tế của Gemini
+      api_key: os.environ/GEMINI_API_KEY_5 # Sử dụng key đầu tiên
+
   # (Tùy chọn) Thêm các model khác nếu cần
   # Ví dụ:
   # - model_name: gemini-vision-router
