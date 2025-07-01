@@ -6,45 +6,45 @@ model_list:
   # Đặt cùng model_name để LiteLLM biết chúng thuộc cùng một nhóm
 
   # --- Keys 1-48 cho gemini-2.5-pro-exp-03-25-router ---
-  - model_name: gemini-2.5-pro-exp-03-25-router # Tên định tuyến bạn sẽ gọi trong APIG
+  - model_name: gemini-2.5-pro # Tên định tuyến bạn sẽ gọi trong APIG
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25 # Model thực tế của Gemini
+      model: gemini/gemini-2.5-pro # Model thực tế của Gemini
       api_key: os.environ/GEMINI_API_KEY_1
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_2
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_3
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_4
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_5
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_6
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_7
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_8
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_9
-  - model_name: gemini-2.5-pro-exp-03-25-router
+  - model_name: gemini-2.5-pro
     litellm_params:
-      model: gemini/gemini-2.5-pro-exp-03-25
+      model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_10
   - model_name: gemini-2.5-pro-exp-03-25-router
     litellm_params:
