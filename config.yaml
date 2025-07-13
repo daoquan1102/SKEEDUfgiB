@@ -1,4 +1,4 @@
-# config.yaml đã chỉnh sửa
+# config.yaml đã chỉnh sửa với safety_settings hợp lệ
 
 model_list:
 
@@ -7,13 +7,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_1
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -21,13 +23,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_2
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -35,13 +39,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_3
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -49,13 +55,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_4
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -63,13 +71,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_5
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -77,13 +87,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_6
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -91,13 +103,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_7
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -105,13 +119,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_8
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -119,13 +135,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_9
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -133,13 +151,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_10
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -147,13 +167,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_11
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -161,13 +183,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_12
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -175,13 +199,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_13
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -189,13 +215,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_14
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -203,13 +231,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_15
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -217,13 +247,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_16
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -231,13 +263,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_17
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -245,13 +279,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_18
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -259,13 +295,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_19
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -273,13 +311,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_20
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -287,13 +327,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_21
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -301,13 +343,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_22
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -315,13 +359,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_23
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -329,13 +375,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_24
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -343,13 +391,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_25
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -357,13 +407,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_26
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -371,13 +423,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_27
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -385,13 +439,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_28
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -399,13 +455,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_29
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -413,13 +471,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_30
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -427,13 +487,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_31
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -441,13 +503,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_32
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -455,13 +519,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_33
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -469,13 +535,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_34
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -483,13 +551,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_35
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -497,13 +567,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_36
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -511,13 +583,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_37
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -525,13 +599,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_38
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -539,13 +615,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_39
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -553,13 +631,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_40
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -567,13 +647,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_41
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -581,13 +663,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_42
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -595,13 +679,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_43
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -609,13 +695,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_44
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -623,13 +711,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_45
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -637,13 +727,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_46
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -651,13 +743,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_47
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-pro
@@ -665,13 +759,15 @@ model_list:
       model: gemini/gemini-2.5-pro
       api_key: os.environ/GEMINI_API_KEY_48
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -679,13 +775,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_1
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -693,13 +791,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_2
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -707,13 +807,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_3
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -721,13 +823,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_4
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -735,13 +839,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_5
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -749,13 +855,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_6
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
   - model_name: gemini-2.5-flash
@@ -763,13 +871,15 @@ model_list:
       model: gemini/gemini-2.5-flash
       api_key: os.environ/GEMINI_API_KEY_7
       safety_settings:
-        - category: HARM_CATEGORY_SEXUAL
+        - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
           threshold: 4
-        - category: HARM_CATEGORY_DANGEROUS
+        - category: HARM_CATEGORY_DANGEROUS_CONTENT
           threshold: 4
         - category: HARM_CATEGORY_HARASSMENT
           threshold: 4
         - category: HARM_CATEGORY_HATE_SPEECH
+          threshold: 4
+        - category: HARM_CATEGORY_CIVIC_INTEGRITY
           threshold: 4
 
 litellm_settings:
